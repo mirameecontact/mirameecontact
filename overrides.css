@@ -1,0 +1,13 @@
+html,body,button,input,textarea,select,summary,*{font-family:"Meiryo UI",Meiryo,sans-serif}
+.header{height:96px}
+.logo-image{display:block;width:116px;height:88px;overflow:hidden;background:#fff}
+.logo-image img{display:block;width:100%;height:100%;object-fit:cover;object-position:center}
+.about-grid{display:block;max-width:760px;margin:auto}
+.message,.service-copy{font-family:"Meiryo UI",Meiryo,sans-serif}
+.service-symbol span{font-size:48px;line-height:1;filter:saturate(.75)}
+.service-logo{background:transparent;border:0;overflow:hidden}
+.service-logo img{display:block;width:76%;height:76%;object-fit:contain}
+.toremee-symbol img{width:92%;height:92%}
+.globe-symbol img{width:70%;height:70%}
+.footer-logo{width:146px;height:108px;border-radius:2px}
+@media(max-width:960px){.header{height:80px}.logo-image{width:92px;height:70px}}
